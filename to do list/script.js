@@ -9,7 +9,7 @@ document.getElementById('task-form').addEventListener('submit', function(e) {
         listItem.textContent = taskText;
 
         let deleteButton = document.createElement('button');
-        deleteButton.textContent = 'Delete';
+        deleteButton.textContent = 'Remove';
         deleteButton.addEventListener('click', function() {
             taskList.removeChild(listItem);
         });
